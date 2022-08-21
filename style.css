@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin-top: 20px;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.snapcard {
+  background: cornflowerblue;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}
+
+.descricao {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.fonte {
+  font-family: 'DynaPuff', cursive;
+  color: aquamarine;
+}
+
+.vsicon img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.credito-itens {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  color: darkslateblue;
+  margin: 20px 0 20px 0;
+}
+
+.credito {
+  color: darkblue;
+  font-family: 'Silkscreen', cursive;
+  font-weight: 700;
+}
+
+.email a,
+.celular a {
+  color: darkcyan;
+}
